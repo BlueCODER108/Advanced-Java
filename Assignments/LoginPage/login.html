@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src="images/menu.png" class="menu-icon" />
+        <p>BlueCODER108</p>
+        <a href="https://github.com/BlueCODER108"
+          ><img src="images/git.jpg" class="git"
+        /></a>
+      </div>
+
+      <div class="nav-middle flex-div">
+        <div class="search-box flex-div">
+          <input type="text" placeholder="Search" />
+          <img src="images/search.png" />
+        </div>
+        <img src="images/voice-search.png" class="mic-icon" />
+      </div>
+
+      <div class="nav-right flex-div">
+        <img src="images/upload.png" />
+        <img src="images/more.png" />
+        <img src="images/notification.png" />
+        <img src="images/eagle.jpg" class="user-icon" />
+      </div>
+    </nav>
+
+    <!-- ----------form--------- -->
+    <form class="box" action="login.html" method="POST">
+      <h1>Login</h1>
+
+      <input type="text" placeholder="Enter the Username" id="username" />
+      <input type="password" placeholder="Enter the Password" id="password" />
+      <input type="submit" value="Login" onclick="validate()" />
+
+      <u><a href="register.html">REGISTER</a></u>
+    </form>
+  </body>
+</html>

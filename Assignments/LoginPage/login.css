@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+.flex-div p{
+    color: #ccc;
+    font-weight: 200;
+}
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: url(eagle.jpg);
+}
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icon {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-left .menu-icon {
+    width: 22px;
+    margin-right: 25px;
+}
+
+.nav-right .logo {
+    width: 130px;
+}
+
+.nav-middle .mic-icon {
+    width: 16px;
+}
+
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img {
+    width: 15px;
+}
+
+/* ---------body------------ */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/some4.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"],.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 35px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+.box input[type="submit"]{
+    border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid #ffc400ec;
+        padding: 14px 10px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25px;
+        cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}
+
+
+/* --------register---------- */
+
+.box a{
+    color: #3361a7;
+}
+
+.git{
+    width: 18%;
+}

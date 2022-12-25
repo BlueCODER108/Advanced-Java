@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(images/some4.jpg);
+    background-size: cover;
+}
+fieldset {
+    width: 50%;
+    border-color: red;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: orange;
+    color: white;
+}
+
+legend {
+    background-color: orange;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
