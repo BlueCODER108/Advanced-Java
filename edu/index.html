@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Multipage Educational Website using Html,CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--ICONSCOT CDN-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---SWIPER JS-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4 class="neonText">SATYA TECHNOLOGIES</h4></a>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="passwordReset.html">Password Reset</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+      <div>
+        <audio autoplay plays-inline src="images/e-web-intro.wav"></audio>
+      </div>
+    </nav>
+    <!--------------------------END OF NAVBAR----------------->
+
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <h1>
+            Reverse engineer your way to success with the power of education
+          </h1>
+          <p>
+            Unlock your true potential and master any subject with our
+            innovative and unique reverse engineering approach to education.
+            Join us now and experience the difference!
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="header_right">
+          <div class="header_right-image">
+            <img src="images/titlecard.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!------END OF HEADER-------------------------------------------------->
+
+    <section class="categories">
+      <div class="container categories_container">
+        <div class="categories_left">
+          <h1>Categories</h1>
+          <p>
+            Learn Software languages: Python, Java, C++, C#, JavaScript,PHP.
+            Master Databases: MySQL, MongoDB, PostgreSQL, Oracle, SQL Server,
+            Firebase. Learn Cloud computing: AWS, Azure, Google Cloud.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-programming-language"></i
+            ></span>
+            <h5>Software Languages</h5>
+            <p>
+              Master top software languages: Python, Java, C++, C#, JavaScript,
+              Ruby, Swift, Go, Perl and PHP.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-database"></i></span>
+            <h5>Databases</h5>
+            <p>
+              Master databases: MySQL, MongoDB, PostgreSQL, Oracle, SQL Server,
+              Firebase, SQLite.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-cloud"></i></span>
+            <h5>Cloud</h5>
+            <p>
+              Master cloud computing: AWS, Azure, Google Cloud, IBM Cloud,
+              Oracle Cloud, Alibaba Cloud.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-coins"></i></span>
+            <h5>Finance</h5>
+            <p>
+              Accounting, Investment, Economics, Taxation, Stock Markets, Risk
+              Management.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category_icon"><i class="uil uil-book-open"></i></span>
+            <h5>Aptitude & SoftSKills</h5>
+            <p>Problem Solving, Communication, Leadership, Time Management.</p>
+          </article>
+          <article class="category">
+            <span class="category_icon"
+              ><i class="uil uil-headphones"></i
+            ></span>
+            <h5>Fun</h5>
+            <p>Gaming, Music, Dancing, Photography, Travel, Movie Making.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------END OF CATEGORIES----------------------->
+
+    <section class="courses">
+      <video autoplay muted loop>
+        <source src="images/satyav.mp4" type="video/mp4" />
+      </video>
+      <h2 class="courseheading">Our Popular Courses</h2>
+      <div class="container courses_container">
+        <article class="course">
+          <div class="course_image">
+            <img src="./images/course1.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Full Stack Java Developer</h4>
+            <p>
+              Full Stack Java Developer with expertise in Java, web development,
+              databases, modern frameworks and experience in delivering
+              high-performance, scalable and robust applications.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./images/course2.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Complete Python</h4>
+            <p>
+              Python Developer with expertise in Python, web development, data
+              analysis, machine learning, modern frameworks and experience in
+              creating high-performance, scalable and robust applications.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./images/course3.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h4>Cloud, AWS</h4>
+            <p>
+              Cloud AWS Engineer with expertise in AWS services, cloud
+              architecture, automation, and experience in designing, deploying
+              and maintaining scalable, secure and highly available cloud
+              solutions.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--------------------END OF COURSES----------------------->
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs_container">
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="uil uil-plus"></i></div>
+          <div class="question_answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              dolorem quia temporibus quidem doloremque corrupti fugiat officiis
+              consequuntur deserunt fuga architecto quis earum cupiditate
+              debitis ipsum, non laudantium voluptatibus impedit?
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--------------------END OF FAQ----------------------->
+
+    <section class="container testimonials_Container mySwiper">
+      <h1>Students Testimonials</h1>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/anaconda1.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Diana Ayi</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              maxime ex hic exercitationem possimus inventore porro vitae
+              minima, impedit repellendus explicabo delectus dolores, rem nisi!
+              Ipsum porro quibusdam cum quam?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/anaconda2.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Ernest Achiever</h5>
+            <small>Web Developer</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              maxime ex hic exercitationem possimus inventore porro vitae
+              minima, impedit repellendus explicabo delectus dolores, rem nisi!
+              Ipsum porro quibusdam cum quam?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/anaconda3.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Edem Quist</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              maxime ex hic exercitationem possimus inventore porro vitae
+              minima, impedit repellendus explicabo delectus dolores, rem nisi!
+              Ipsum porro quibusdam cum quam?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/anaconda4.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Julia Jace</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              maxime ex hic exercitationem possimus inventore porro vitae
+              minima, impedit repellendus explicabo delectus dolores, rem nisi!
+              Ipsum porro quibusdam cum quam?
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/anaconda5.jpg" alt="" />
+          </div>
+          <div class="testimonial_info">
+            <h5>Lane Doe</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              maxime ex hic exercitationem possimus inventore porro vitae
+              minima, impedit repellendus explicabo delectus dolores, rem nisi!
+              Ipsum porro quibusdam cum quam?
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!---------------------END OF TESTIMONIALS -------------->
+
+    <footer>
+      <div class="container footer_container">
+        <div class="footer_1">
+          <a href="index.html" class="footer_logo"
+            ><h4>SATYA TECHNOLOGIES</h4></a
+          >
+          <p>Reverse engineer your way to success with us.</p>
+        </div>
+
+        <div class="footer_2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+01 234 967 8910</p>
+            <p>satyatech@gmail.com</p>
+          </div>
+
+          <ul class="footer_socials">
+            <li>
+              <a href="#"><i class="uil uil-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_copyright neonText">
+        <small>Copyright &copy; BLUECODER108</small>
+      </div>
+    </footer>
+
+    <!----------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        //when window width is >= 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+
+    <!------end of link-->
+  </body>
+</html>
